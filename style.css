@@ -51,10 +51,10 @@
   width: 10rem;
   height: 30rem;
 }
-.margen {
-  margin: -1rem;
-}
 @media (max-width: 600px) {
+  .margen {
+    margin: -1rem;
+  }
   .imagenCarrusel {
     width: 15rem;
     height: 15rem;
