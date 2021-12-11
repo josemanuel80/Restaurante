@@ -51,6 +51,9 @@
   width: 10rem;
   height: 30rem;
 }
+.margen {
+  margin: -1rem;
+}
 @media (max-width: 600px) {
   .imagenCarrusel {
     width: 15rem;
