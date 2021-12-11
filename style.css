@@ -1,0 +1,59 @@
+.pos {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+.card {
+  padding: 5rem;
+  margin-left: 5rem;
+}
+.image {
+  width: 100%;
+  opacity: 0.5;
+}
+.pic {
+  height: 600px;
+}
+.sub {
+  text-align: center;
+}
+.input {
+  width: 3rem;
+  height: 2rem;
+  border: none;
+}
+
+.precio {
+  border: none;
+}
+
+.pedido {
+  border: none;
+}
+.grupo {
+  max-height: 3rem;
+}
+.total {
+  text-align: end;
+}
+.input2 {
+  border: none;
+}
+.login {
+  margin-right: 3rem;
+}
+.usuario {
+  color: white;
+  font-size: x-large;
+  margin-top: 10px;
+}
+.imagenCarrusel {
+  width: 10rem;
+  height: 30rem;
+}
+@media (max-width: 600px) {
+  .imagenCarrusel {
+    width: 15rem;
+    height: 15rem;
+  }
+}
