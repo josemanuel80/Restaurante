@@ -51,6 +51,10 @@
   width: 10rem;
   height: 30rem;
 }
+.borderNone {
+  width: 10rem;
+  border: none;
+}
 @media (max-width: 600px) {
   .margen {
     margin: -1rem;
