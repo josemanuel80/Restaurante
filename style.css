@@ -55,10 +55,13 @@
   width: 10rem;
   border: none;
 }
-@media (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
+  .ancho {
+    width: 20rem;
+  }
   .margen {
-    margin: -1rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
   .imagenCarrusel {
     width: 15rem;
