@@ -24,6 +24,7 @@ const entrecot = document.querySelector('.entrecot');
 const pescado = document.querySelector('.pescado');
 const pollo = document.querySelector('.pollo');
 const ensalada = document.querySelector('.ensalada');
+const urta = document.querySelector('.urta');
 const total = document.querySelector('.total');
 const usuario = document.querySelector('.usuario');
 const nombre = document.querySelector('.nombre');
@@ -137,7 +138,7 @@ const cantidadResta2 = () => {
     p2.innerHTML =
       parseInt(input2.value) +
       ' X ' +
-      entrecot.name +
+      pasta.name +
       ' = ' +
       parseInt(input2.value) * precioPasta;
     if (parseInt(input2.value) === 0) {
@@ -229,7 +230,7 @@ const cantidadSuma5 = () => {
   p5.innerHTML =
     parseInt(input5.value) +
     ' X ' +
-    pollo.name +
+    ensalada.name +
     ' = ' +
     parseInt(input5.value) * precioEnsalada;
   total.value = parseFloat(total.value) + precioEnsalada;
@@ -241,7 +242,7 @@ const cantidadResta5 = () => {
     p5.innerHTML =
       parseInt(input5.value) +
       ' X ' +
-      pollo.name +
+      ensalada.name +
       ' = ' +
       parseInt(input5.value) * precioEnsalada;
     if (parseInt(input5.value) === 0) {
@@ -264,7 +265,7 @@ const cantidadSuma6 = () => {
   p6.innerHTML =
     parseInt(input6.value) +
     ' X ' +
-    pollo.name +
+    urta.name +
     ' = ' +
     parseInt(input6.value) * precioUrta;
   total.value = parseFloat(total.value) + precioUrta;
@@ -276,7 +277,7 @@ const cantidadResta6 = () => {
     p6.innerHTML =
       parseInt(input6.value) +
       ' X ' +
-      pollo.name +
+      urta.name +
       ' = ' +
       parseInt(input6.value) * precioUrta;
     if (parseInt(input6.value) === 0) {
